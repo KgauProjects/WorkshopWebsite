@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form example</title>
+        <meta name="viewport" content="height=device-height">
+    </head>
+
+    <body>
+        <div id="top-section">
+            <div id="heading">
+                <h1>Scotty4Real</h1>
+                <style>
+                    h1{
+                        text-align: center;
+                        color: aquamarine;
+                        margin-block-start: 0%;
+                        margin-block-end: 0%;
+                    }
+                </style>
+            </div>
+            <style>
+                #heading{
+                    background-color: black;
+                }
+            </style>
+
+            <div id="space">
+                <img src="images/bopape.jpg" title="this is bopap" draggable="true" id="true-vandals"/>
+                <style>
+                    #true-vandals{
+                        height: 100%;
+                        width: 15%;
+                    }
+                </style>
+                
+            </div> <!--# to style by id-->
+            <style> 
+                #space{
+                    display: flex;    
+                    height:100px;
+                    align-items: center;
+                    color:antiquewhite;
+                    margin-left: 46%;
+                }
+            </style>
+
+            <div class="flex" dropzone="copy">
+                <div id="empty-section">
+                </div>
+                <style>
+                    #empty-section{
+                        background-color: black;
+                        width: 70%;
+                    }
+                </style>
+
+
+                <div id="form-section">
+                    <form action="http://localhost/Kgaugelo%20Website/root/collection.php" method="post">
+                        <input type="text" name="query" size= 20 id="search-bar" />
+                        <input type="submit" name="search" id="search">
+                        <style>
+                            #search{
+                                background-image: url("images/search-button-bg.png");
+                                background-color:transparent;
+                                color:#333;
+                                border:0;
+                                text-indent: -99999px;
+                                height:33px;
+                                font-display: none;
+                                width:31px;
+                            }
+                        </style>
+                    </form>
+                </div>
+                <style>
+                    #form-section{
+                        display: flex;
+                        background-color: black;
+                        margin-left: 50%;
+                        width:30%;
+                    }
+                </style>
+            </div>
+        </div>
+
+        <style>
+            #top-section{
+                background-color: black;
+                border:0;
+                margin: 0;
+                outline: 0;
+                padding: 0;
+                vertical-align: baseline;
+                width: 100%;
+            }
+
+            .flex{
+                display: flex;
+                align-self: flex-end;
+            }
+        </style>
+
+        <div id="mid-section">
+            <fieldset>
+                <legend>Details over ear, yeah</legend>
+                <form action="http://localhost/Kgaugelo%20Website/root/collection.php" method="get">
+                    <label for="first-name">Name: </label> <input type="text" name="name" size=20 maxlength=80 id="first-name"/><br/>
+                    <label for="last-name">Surname:</label> <input type="text" name="surname" size=20 maxlength=80 id="last-name" required=""/><br/>
+                    <label for="e-mail">Email:</label> <input type="email" name="email" id="e-mail"/><br>
+                    <input type="submit" name="form-submit" value="upload" />
+                </form>
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <form action="http://localhost/Kgaugelo%20Website/root/collection.php" method="post">
+                    <br><br>
+                    How did you find out about us?
+                    <select name="source" id="source">
+                        <option value="google">Google</option>
+                        <option value="friend">A Friend</option>
+                        <option value="billboard">Billboard</option>
+                    </select>
+                    <br><br>
+                    
+                    Would you visit us again?<br>
+                    <input type="radio" name="revisit" value="yes" />yes
+                    <input type="radio" name="revisit" value="maybe" />maybe
+                    <input type="radio" name="revisit" value="no" />no<br><br>
+                    
+                    Comments:<br>
+                    <textarea>Enter your comments</textarea><br><br>
+                    
+                    <input type="checkbox" name="email-updates" value="sign-in" checked="checked"/> Sign up for email updates
+                    <br><br>
+                    <input type="submit" name="review" value="submit" />
+                </form>
+            </fieldset>
+            
+        </div>
+        <style>
+            #mid-section{
+                background-color: greenyellow;
+                
+            }
+        </style>
+
+        <!--div has no semantic meaning, use section-->
+        <div id="content-section">
+            <iframe
+            src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyB4Ks6ztvWem9e4PMxVLSNBrbBg5pP7SHk&location=-26.2379589,28.0359468" 
+            seamless="seamless"
+            id="parthenon">
+            </iframe>
+
+            <video poster="images/me.jpg" id="wrasslin" controls="controls" loop="true" preload="auto">
+                <source src="video/pamoWrasslin.mp4" type="video/mp4"/>  <!--possible acceptable file types depending on browser-->
+                <source src="video/vid.mp4" type="video/mp4" />
+            </video>
+
+            <iframe width="300" 
+            src="https://www.youtube.com/embed/Q1QPXyebhiY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            id="youtube-embed"></iframe>
+
+            God Rest Ye Merry Gentlemen Pentatonix:<br />
+            <div id="block-audio">
+            <audio src="audio/GodRestYeMerryGentlemen.mp3" controls="controls" preload="auto" autoplay="false" loop="true" id="merry">    
+            </audio>
+            </div>
+
+            <style>
+                #parthenon{
+                    height:100%;
+                    border:0;
+                }
+
+                #wrasslin{
+                    height:100%;
+                    
+                }
+                
+                #youtube-embed{
+                    height:100%;
+                }
+                #block-audio{
+                    align-self: flex-end;
+                    background-color: slateblue;
+                }
+            </style>
+
+        </div>
+
+        <style>
+            #content-section{
+                background-color: deeppink;
+                height:300px;
+                display: flex;
+                align-items: flex-start;
+            }
+        </style>
+        
+    </body>
+    <style>
+        head{
+            display: none;
+            height: 0px;
+            width: 0px;
+        }
+        body{
+            background-color: aquamarine;
+            border: 0;
+            margin: 0;
+            outline: 0;
+            padding:0;
+        }
+    </style>
+</html>
+</html>
