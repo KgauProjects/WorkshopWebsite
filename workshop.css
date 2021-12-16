@@ -1,0 +1,146 @@
+table{
+    margin: 20px 0;
+    border-spacing: 0em;
+    border:3px solid;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: rgb(60, 60, 60);
+    position: relative;
+    left: 25%;
+}
+
+td{
+    border: none;
+    padding: 1.5em;
+}
+
+td:hover{
+    background-color: rgba(60, 0, 0, 0.5);
+}
+
+th{
+    border: none;
+    padding: 0.5em;
+}
+
+thead{
+    color: rgb(185, 185, 185);
+    background-color: rgb(45, 45, 45);
+    text-transform: uppercase;
+}
+
+td:first-child{
+    color: rgb(185, 185, 185);
+    background-color: rgb(45, 45, 45);
+    border-color:rgb(187, 187, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background: -webkit-linear-gradient(45deg, rgb(11, 184, 86), rgb(21, 44, 31));
+    background: -moz-linear-gradient(45deg, rgb(11, 184, 86), rgb(21, 44, 31));
+    background: linear-gradient(45deg, rgb(11, 184, 86), 30%, rgb(21, 44, 31));
+    color:rgb(221, 221, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol{
+    list-style-type: none;
+}
+
+li{
+    line-height: 1.2em;
+}
+
+fieldset{
+    width: 25%;
+    border-radius: 5px;
+    background-color: rgb(60, 60, 60);
+    font-family: Verdana, Tahoma, sans-serif;
+    position: relative;
+    left: 36%;
+}
+
+form{
+    line-height: 2.5em;
+    font-size: 0.75em;
+}
+
+legend{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 300;
+    border: 1px solid rgb(221, 221, 221); 
+    border-radius: 4px;
+    background-color:  rgb(104, 104, 104);
+    padding: 4px;
+}
+
+.title{
+    float: left;
+    width: 150px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+#submit{
+    background-color: rgba(107, 99, 30, 0.9);
+    color:rgb(221, 221, 221);
+    box-shadow: none;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    float:right;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    margin-block-start: 0;
+    padding-block-start: 0.67em;
+    padding-block-end: 0.67em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+    background-image: -webkit-linear-gradient(90deg, rgb(17, 26, 17), rgb(36, 58, 36));
+    background-image: -moz-linear-gradient(90deg, rgb(17, 26, 17), rgb(36, 58, 36));
+    background-image: linear-gradient(0deg, rgb(17, 26, 17), rgb(36, 58, 36));
+    text-align: center;
+    z-index: 20;
+    box-shadow: 2px 2px 1px 1px rgb(17, 26, 17);
+}
+
+#header{
+    margin-top: 90px;
+    width: 45%;
+    position: relative;
+    left: 27%;
+    text-align: center;
+    z-index: 15;
+}
+
+
+input[type="text"], input[type="email"]{
+    border-radius: 4px;
+}
+
+blockquote{
+    position: relative;
+    float: right;
+    background-color: rgb(22, 22, 22);
+    border: solid grey;
+    border-width: 0 0 0 3px;
+    width: 13em;
+}
+
+
+
+
+
+
+
+
+

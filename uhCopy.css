@@ -27,15 +27,15 @@ section{
 footer{
     height: 75px;
     background-color: hsla(187, 100%, 50%, 1);
-    color:rgb(45, 45, 45)
+    color:rgb(45, 45, 45);
+    text-transform: capitalize;
 }
 
 ul{
     height: 50px;
     background-color: rgb(204, 204, 204);
-    border: solid black;
+    border: none black;
     border-width: 2px 0;
-    box-shadow: 0 -2px 1px #444444;
     display: block;
     padding: 0;
     padding-top: 35px;
