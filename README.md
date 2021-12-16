@@ -6,4 +6,4 @@ Basically going through HTML5, CSS3, JavaScript and various related technologies
 
 This is how the practice website currently looks
 
-![this is our website](root/images/The%20Poetry%20Workshop.PNG)
+![this is our website](../../images/The%20Poetry%20Workshop.PNG)
